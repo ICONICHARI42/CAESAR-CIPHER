@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+.title-bar{
+    background-color: #425656;
+    width: 100%;
+    color: #ffff;
+    position: static;
+    top: 0px;
+    left: 0px;
+    padding: 6px;
+}
+
+.main-text{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 6px;
+}
+
+.bg-image{
+    background-image: url('/960x0.jpg');
+    position: absolute;
+    width: 100%;
+    height: 90%;
+}
+
+.bg-image h2{
+    color: #ffff;
+    text-align: center;
+    padding: 15px;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.main-content{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    text-align: center;
+}
+
+.btn input{
+    padding: 10px;
+    margin: 20px 20px 40px 20px;
+}
+
+#shiftValue{
+    width: 30%;
+   height: 50%;
+   display: block;
+   margin: 40px 40px 40px 140px;
+   padding: 10px;
+}
+
+#inputText,#outputText{
+    width: 60%;
+    height: 100%;
+    padding: 30px;
+}
